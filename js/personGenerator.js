@@ -201,9 +201,9 @@ const personGenerator = {
     // обнуляем пол
     Gender_Parameter: '',
 
-    // переменные пола были изначально
-    GENDER_MALE: 'Мужчина',
-    GENDER_FEMALE: 'Женщина',
+    // // переменные пола были изначально
+    // GENDER_MALE: 'Мужчина',
+    // GENDER_FEMALE: 'Женщина',
 
     // Math.random - случайная генерация. Math.floor - округление. Метод общий для всех.
     randomIntNumber: (max = 1, min = 0) => Math.floor(Math.random() * (max - min + 1) + min),
